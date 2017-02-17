@@ -163,6 +163,7 @@
   <ItemGroup>
     <ProjectReference Include="..\UsedLibrary\UsedLibrary.vcxproj">
       <Project>{d6598331-d49c-4405-b933-03c0b81eb70f}</Project>
+      <private>true</private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
